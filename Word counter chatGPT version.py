@@ -12,8 +12,10 @@ with open(fileAdress, encoding="UTF-8") as text:
 
 wordcount = len(words)
 
-print("The text contains", wordcount, "different words.")
+
 
 # If you want to count the frequency of each word, you can use Counter:
 word_frequency = Counter(words)
-print("Word frequency:", len(word_frequency))
+print("Word frequency:", word_frequency)
+
+print("The text contains", wordcount, "different words.")
